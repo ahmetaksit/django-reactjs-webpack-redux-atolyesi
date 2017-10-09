@@ -8,7 +8,7 @@ export default class App1Container extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <Headline>Ahmet AKŞİT tarafından değiştirildi.!</Headline>
+            <Headline>Ahmet AKŞİT tarafından stage olarak değiştirildi.!</Headline>
           </div>
         </div>
       </div>
