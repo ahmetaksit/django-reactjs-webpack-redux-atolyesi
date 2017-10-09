@@ -35,3 +35,9 @@ pip-selfcheck.json
 #npm
 node_modules
 # end npm
+
+### webpack Env ###
+# webpack
+[Ss]tage
+[Pp]rod
+# End webpack
