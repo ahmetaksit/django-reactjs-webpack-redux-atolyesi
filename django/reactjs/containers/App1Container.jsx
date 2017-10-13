@@ -55,8 +55,8 @@ export default class App1Container extends React.Component {
         <div className="row">
           <div className="col-sm-12">
             <Headline>Ahmet AKŞİT tarafından stage olarak değiştirildi.!</Headline>
-            <div styles={[styles.button]} onClick={() => this.handleClick()}>INCREASE</div>
-            <p styles={[styles.counter]}>{counters.clicks}</p>
+            <div style={[styles.button]} onClick={() => this.handleClick()}>INCREASE</div>
+            <p style={[styles.counter]}>{counters.clicks}</p>
             <p>{process.env.BASE_API_URL}</p>
             {github.repos !== undefined &&
               <GithubRepos repos={github.repos} />
